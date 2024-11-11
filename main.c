@@ -15,7 +15,7 @@ char array[3];
 void main()
 {
 	
-	unsigned char loc = 6;
+unsigned char loc = 6;
   lcd_init ();
 
 	while(1)
@@ -49,6 +49,6 @@ void main()
      loc = 6;
      index = 0;
      key = '\0';
-		}
-	}
+  }
+ }
 }
