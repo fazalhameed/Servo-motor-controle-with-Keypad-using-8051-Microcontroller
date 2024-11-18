@@ -13,22 +13,19 @@ int index=0;
 char array[3];
 
 void main()
-{
-	
+{	
 unsigned char loc = 6;
-  lcd_init ();
+lcd_init ();
 
-	while(1)
-	{
-		
+while(1)
+	{	
     lcd_set_cursor(0, 0);            
     lcd_string("Servo Motor Ctrl");   
     lcd_set_cursor(1, loc);        
     key = keypad();                 
 
-
     if (key != '=' && key != '\0')      
-	{
+{
     lcd_set_cursor(1, loc);           
 
     lcd_char(key);     
