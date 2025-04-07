@@ -42,7 +42,6 @@ char keypad ()
 		key='/';
 	}
 	
-	
 	r1=1;r2=0;r3=1;r4=1;
 	if(c1==0)
 	{
@@ -95,7 +94,6 @@ char keypad ()
 		key='-';
 	}
 	
-	
 	r1=1;r2=1;r3=1;r4=0;
 	if(c1==0)
 	{
@@ -123,8 +121,3 @@ char keypad ()
 	
 	return key;
 }
-
-
-
-
-
